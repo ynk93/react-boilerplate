@@ -1,0 +1,44 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "Fast start react project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynk93/react-boilerplate.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Pozdniakov Bohdan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ynk93/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ynk93/react-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.0",
+    "style-loader": "^1.1.1",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ]
+  }
+}
